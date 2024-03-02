@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(213, 187, 240);
+    .protest-riot-regular {
+        font-family: "Protest Riot", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+}
+header{
+    background-color: rgb(192, 145, 236);
+    text-align: center;
+    padding: 2% 0%;
+}
+section{
+    background-color: rgb(154, 96, 207);
+    display: flex;
+
+}
+nav{
+    background-color: white;
+    width: 20%;
+    
+}
+article{
+    background-color: white;
+    width: 80%;
+    padding-left: 10px;
+
+}
+footer{
+    background-color: rgb(116, 0, 224);
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    box-shadow: black;
+
+
+}
+a{
+    text-decoration: none;
+    color:purple;
+
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+
+
+
+}
+
+li{
+    list-style-type: none;
+}
+.btnnav{
+    padding: 10px 15px;
+    margin: 7px;
+    border-radius: 10px;
+    background-color: rgb(231, 225, 236);
+    color: rgb(136, 37, 136);
+    width: 100%;
+
+}
+
+.btnnav:hover{
+
+    background-color: lightyellow;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(133, 40, 156);
+    margin: 20px;
+    float: left; 
+      width: calc(33.33% - 40px); 
+      box-sizing: border-box; 
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .card-text {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .card-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+  }
